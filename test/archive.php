@@ -1,4 +1,9 @@
 <?php
+
+/*
+ * This file is part of PHP CS Fixer.
+ */
+
 require_once '../src/file/Archive.php';
 
 use phpLibrary\src\file\Archive;

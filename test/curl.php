@@ -1,7 +1,13 @@
 <?php
+
+/*
+ * This file is part of PHP CS Fixer.
+ */
+
 require_once '../src/net/Curl.php';
 
 use phpLibrary\src\net\Curl;
+
 $curl = new Curl();
 
 $url = 'http://www.baidu.com';

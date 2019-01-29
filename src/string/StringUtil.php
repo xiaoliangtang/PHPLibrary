@@ -2,10 +2,8 @@
 
 /*
  * This file is part of PHP CS Fixer.
- * (c) php-team@yaochufa <php-team@yaochufa.com>
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
  */
+
 namespace phpLibrary\src\string;
 
 class StringUtil
@@ -96,7 +94,7 @@ class StringUtil
      * @param StringUtil $start   开始位置
      * @param StringUtil $length  截取长度
      * @param StringUtil $charset 编码格式
-     * @param bool   $suffix  截断显示字符
+     * @param bool       $suffix  截断显示字符
      *
      * @return StringUtil
      */
@@ -122,9 +120,9 @@ class StringUtil
      * 产生随机字串，可用来自动生成密码
      * 默认长度6位 字母和数字混合 支持中文.
      *
-     * @param int    $len      长度
+     * @param int        $len      长度
      * @param StringUtil $type     字串类型
-     *                         0 字母 1 数字 其它 混合
+     *                             0 字母 1 数字 其它 混合
      * @param StringUtil $addChars 额外字符
      *
      * @return StringUtil
@@ -207,8 +205,8 @@ class StringUtil
      *  但可能存在重复.
      *
      * @param StringUtil $format 字符格式
-     *                       # 表示数字 * 表示字母和数字 $ 表示字母
-     * @param int    $number 生成数量
+     *                           # 表示数字 * 表示字母和数字 $ 表示字母
+     * @param int        $number 生成数量
      *
      * @return StringUtil | array
      */

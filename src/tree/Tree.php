@@ -2,11 +2,10 @@
 
 /*
  * This file is part of PHP CS Fixer.
- * (c) php-team@yaochufa <php-team@yaochufa.com>
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
  */
+
 namespace phpLibrary\src\tree;
+
 class Tree
 {
     /**

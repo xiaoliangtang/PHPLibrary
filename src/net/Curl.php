@@ -2,9 +2,6 @@
 
 /*
  * This file is part of PHP CS Fixer.
- * (c) php-team@yaochufa <php-team@yaochufa.com>
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
  */
 
 namespace phpLibrary\src\net;
@@ -88,7 +85,7 @@ class Curl
      */
     public $curl_error = false;
     /**
-     * @var int Contains the error code of the current request, 0 means no error happened.
+     * @var int contains the error code of the current request, 0 means no error happened
      *
      * @see https://curl.haxx.se/libcurl/c/libcurl-errors.html
      */
@@ -102,7 +99,7 @@ class Curl
      */
     public $http_error = false;
     /**
-     * @var int Contains the status code of the current processed request.
+     * @var int contains the status code of the current processed request
      */
     public $http_status_code = 0;
     /**
@@ -614,7 +611,7 @@ class Curl
      * var_dump($curl->getResponseHeaders());
      * ```
      *
-     * @param string $headerKey Optional key to get from the array.
+     * @param string $headerKey optional key to get from the array
      *
      * @return bool|string|array
      *
